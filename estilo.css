@@ -20,6 +20,7 @@ h1{
     
     color: rgb(102,102,102);
     font-weight: bold;
+    text-decoration: none;
     margin: 60px 0;
     display: inline-block;
     cursor: pointer;
@@ -28,7 +29,7 @@ h1{
 
 h1:hover{
 
-    border-bottom: 3px solid black;
+    text-decoration: underline;
 
 }
 
@@ -87,4 +88,12 @@ input:focus{
 
     background-color: rgb(181, 91, 40);
 
+}
+
+#enviar:active{
+    background-color: #c14e0e;
+}
+
+footer{
+    font-size: .8em;
 }
